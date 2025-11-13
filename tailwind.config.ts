@@ -13,7 +13,14 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ['Playfair Display', 'serif'],
+        body: ['Inter', 'sans-serif'],
+      },
       colors: {
+        champagne: "hsl(var(--champagne))",
+        blush: "hsl(var(--blush))",
+        ivory: "hsl(var(--ivory))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
